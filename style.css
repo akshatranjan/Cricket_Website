@@ -1,0 +1,100 @@
+body {
+  background: rgb(0,194,255);
+  background: linear-gradient(90deg, rgba(0,194,255,1) 0%, rgba(0,255,166,1) 100%);
+  text-align: center;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#intro {
+  padding: 20px;
+  font-size: 18;
+}
+
+h1 {
+  text-shadow: 2px 2px #F8BBD0;
+}
+
+img {
+   border-radius: 15%;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: bold; 
+}
+
+.menu {
+    z-index: 10;
+    position: fixed;
+    font-family: sans-serif;
+    list-style-type: none;
+    margin-top: 0px;
+    top: 0px;
+    cursor: pointer;
+    width: 100%;
+    background: white;
+}
+
+
+.links {
+    font-family: fantasy;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    display: inline;
+}
+
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.line {
+    width: 80px;
+    background-color: black;
+    height: 15px;
+    margin-left: 900px;
+}
+
+#myfavourite {
+    text-align: center;
+}
+
+#myfavourite ul {
+    list-style-position: inside;
+}
+
+.facts {
+    height: 400px;
+    width: auto;
+    border-radius: 0%;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+.facts:hover {
+    transform: scale(0.9);
+}
+
+#contact1 iframe {
+    width: 100%;
+}
+
+#contact1 h3 {
+    display: inline;
+    color: black;
+}
+
+#contact1 a {
+    text-decoration:none;
+}
+
+#myfavourite ul,p {
+    font-size: 18px;
+}
